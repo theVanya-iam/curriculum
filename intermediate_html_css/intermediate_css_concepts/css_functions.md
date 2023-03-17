@@ -62,7 +62,8 @@ You should be able to grasp how `calc()` is used in the above CodePen embed. We 
 
 #### min()
 
-`min()` does an excellent job of helping us create responsive websites. Take a look at this example:
+`min()` does an excellent job of helping us create responsive websites. It takes two or more input values and returns the smallest value.  
+Take a look at this example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
@@ -88,7 +89,7 @@ In the first case `min()` selects `150px`, since `150px` is the smaller (the min
 
 #### max()
 
-Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a _minimum_ allowed value for a property.
+Max works the same way as min, only in reverse. It selects the largest possible value from within the parentheses. You can think of `max()` as ensuring a _minimum_ allowed value for a property.
 
 Consider the following property of a given element:
 
